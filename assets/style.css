@@ -46,3 +46,42 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*
+====================================
+Hero section
+====================================
+*/
+
+.hero img {
+	width: 250px;
+	height: 250px;
+}
+
+/*
+====================================
+Navigation
+====================================
+*/
+
+.container {
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 960px;
+}
