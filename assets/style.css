@@ -61,27 +61,47 @@ table {
 	box-sizing: border-box;
 }
 
-
-/*
-====================================
-Hero section
-====================================
-*/
-
-.hero img {
-	width: 250px;
-	height: 250px;
-}
-
-/*
-====================================
-Navigation
-====================================
-*/
-
 .container {
 	margin: 0 auto;
 	padding-left: 30px;
 	padding-right: 30px;
 	width: 960px;
 }
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom: 22px;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0;
+}
+
+.btn-alt {
+	border: 1px solid #dfe2e5;
+	padding: 10px 30px;
+	width: 200.5px;
+}
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+.hero {
+	padding: 22px 80px 66px 80px;
+  }
