@@ -1,12 +1,22 @@
 body {
     background-color: #f7e8ce;
+    box-sizing: border-box;
 }
 
+/*
+=======================================
+Monster Guide
+=======================================
+*/
 .section-offset {
     background-color: #fbf1e1;
     width: 90%;
-    height: 50px;
+    height: 300px;
+    padding: 12px;
 }
-/*
-background-color: #f5e5ca;
-*/
+
+.monster-info {
+    background-color: white;
+    width: 75%;
+    height: 65%;
+}
